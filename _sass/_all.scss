@@ -1,0 +1,24 @@
+@mixin line-height($font-size) {
+    line-height: $font-size / 100 * 150;
+}
+
+@mixin aspect-ratio($width) {
+    height: $width / 16 * 9;
+}
+
+$snow-blue: #e8f3f8;
+$dark-snow-blue: #DBE6EC;
+$medium-blue: #C2CBCE;
+$ocean-blue: #A4BCC2;
+$dark-ocean-blue: #81a8b8;
+
+
+html {
+    font-family: 'Open Sans', 'Arial', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, p, span{
+  letter-spacing: 1px;
+  margin: 0px;
+  padding: 0px;   
+}
